@@ -18,8 +18,4 @@ jobs:
 
       - name: R Hello World
         run: |
-          print ("Hello, World!")
-        shell: Rscript {0}
-        #run: |
-        #  run_hello_world.cmd
-        #shell: cmd
+          C:\\Program Files\\R\\R-4.1.0\\bin\\Rscript.exe hello_world.R
