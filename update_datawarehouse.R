@@ -1,6 +1,7 @@
 library(tidyverse)
 library(lubridate)
 library(DBI)
+library(RSQLite)
 library(NHSRdatasets)
 
 my_dw <- "c:\\my_datawarehouse.db"

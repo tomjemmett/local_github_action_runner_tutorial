@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: R Hello World
+      - name: Run Update Datawarehouse
         run: |
           run_update_datawarehouse.cmd
         shell: cmd
