@@ -28,6 +28,4 @@ jobs:
         with:
           r-version: ${{ matrix.r-version }}
       - name: Hello World
-        run: |
-          print ("Hello, World!")
-        shell: Rscript {0}
+        run: run_hello_world.cmd
