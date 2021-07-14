@@ -14,4 +14,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: R Hello World
-        run: run_hello_world.cmd
+        run: |
+          run_hello_world.cmd
+        shell: cmd
