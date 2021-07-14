@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  r_hello_world:
     runs-on: self-hosted
 
     steps:
@@ -15,6 +15,5 @@ jobs:
 
       - name: R Hello World
         run: |
-          cd
-          dir
+          run_hello_world.cmd
         shell: cmd
