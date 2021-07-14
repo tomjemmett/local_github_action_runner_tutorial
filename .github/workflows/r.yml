@@ -13,9 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Add R to path
-        run: echo "C:\\Program Files\\R\\R-4.1.0\\bin" >> $GITHUB_PATH
-
       - name: R Hello World
-        run: |
-          'C:\Program Files\R\R-4.1.0\bin\Rscript.exe' hello_world.R
+        run: run_hello_world.cmd
