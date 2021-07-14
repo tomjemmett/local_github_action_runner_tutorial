@@ -12,4 +12,6 @@ jobs:
 
     steps:
       - name: R Hello World
-        run: run_hello_world.cmd
+        run: |
+          run_hello_world.cmd
+        shell: cmd
