@@ -21,5 +21,5 @@ jobs:
     steps:
       - name: Hello World
         run: |
-          print ("Hello World!")
-        shell: Rscript {0}
+          echo "Hello World!"
+        shell: cmd
