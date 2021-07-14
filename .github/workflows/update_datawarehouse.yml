@@ -1,4 +1,4 @@
-name: R Hello World
+name: Update Datawarehouse
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  r_hello_world:
+  update_datawarehouse:
     runs-on: self-hosted
 
     steps:
@@ -15,5 +15,5 @@ jobs:
 
       - name: R Hello World
         run: |
-          run_hello_world.cmd
+          run_update_datawarehouse.cmd
         shell: cmd
